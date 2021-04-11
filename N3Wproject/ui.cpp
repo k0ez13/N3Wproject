@@ -1,5 +1,5 @@
-#include "../demonsense/menu/menu.h"
-#include "../demonsense/menu/ui.h"
+#include "../N3Wproject/menu/menu.h"
+#include "../N3Wproject/menu/ui.h"
 #include <deque>
 #include <algorithm>
 #include <vector>

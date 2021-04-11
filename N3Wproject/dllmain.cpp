@@ -9,8 +9,8 @@
 #include "options/config.h"
 #include <filesystem>
 #include "options/options.h"
-#include "../demonsense/hooks/importer.h"
-#include "../demonsense/hooks/xor.h"
+#include "../N3Wproject/hooks/importer.h"
+#include "../N3Wproject/hooks/xor.h"
 
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -208,14 +208,14 @@ BOOL APIENTRY DllMain(_In_ HINSTANCE instance, _In_ DWORD fdwReason, _In_opt_ LP
 
 
 		char buff[228];
-		snprintf(buff, sizeof(buff), "version - beta | %.2f", DEMONSENSE_VERSION);
+		snprintf(buff, sizeof(buff), "version - beta | %.2f", N3Wproject_VERSION);
 		std::string text = buff;
 
-		notify::console::notify("demonsense", "injected");
-		notify::console::notify("demonsense", text.c_str());
+		notify::console::notify("N3Wproject", "injected");
+		notify::console::notify("N3Wproject", text.c_str());
 
-		notify::screen::notify("demonsense", "injected");
-		notify::screen::notify("demonsense", text.c_str());
+		notify::screen::notify("N3Wproject", "injected");
+		notify::screen::notify("N3Wproject", text.c_str());
 
 		utils::console_print("parsing skins.\n");
 
@@ -224,8 +224,8 @@ BOOL APIENTRY DllMain(_In_ HINSTANCE instance, _In_ DWORD fdwReason, _In_opt_ LP
 			initialize_kits();
 		}
 
-		notify::console::notify("demonsense", "kits initialized");
-		notify::screen::notify("demonsense", "kits initialized");
+		notify::console::notify("N3Wproject", "kits initialized");
+		notify::screen::notify("N3Wproject", "kits initialized");
 
 		utils::console_print("all finished.\n");
 

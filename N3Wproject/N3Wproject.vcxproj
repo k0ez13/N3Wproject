@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{88536826-1464-4E47-9D42-4A55AF21199C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>demonsense</RootNamespace>
+    <RootNamespace>N3Wproject</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <ProjectName>N3Wproject</ProjectName>
   </PropertyGroup>
