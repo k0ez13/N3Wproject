@@ -9,9 +9,8 @@ If your cpu supports AVX, AVX2 or AVX512 you can enable it in the project settin
 - > Where is the config location?
   -- C:\N3W\standart
     
- [**Menu desing**](https://imgur.com/a/tuDbTXH)
     
-![Screenshot](https://i.imgur.com/A1agCyT.png)
+![Screenshot](https://cdn.discordapp.com/attachments/739208613708562513/830889319404535808/unknown.png)
 
 
 
