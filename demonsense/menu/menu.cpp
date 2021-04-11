@@ -1076,7 +1076,6 @@ void misc_tab()
 			ImGui::ItemsToolTipEnd();
 		}
 
-
 		ImGui::Checkbox("fast stop", &settings::misc::fast_stop);
 		if (settings::misc::fast_stop) {
 			ImGui::Combo("fast stop type", &settings::misc::fast_stop_mode, fastStopModes, IM_ARRAYSIZE(fastStopModes));
